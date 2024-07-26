@@ -37,6 +37,7 @@ namespace NYVTEN001_W1
             this.Controls.Add(txtOutput);
 
             btnAdd = new Button { Text = "Add", Top = 360, Left = 10 };
+            btnAdd.Click += Btn_Click;
         }
     }
     
