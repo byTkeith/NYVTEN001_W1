@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.FileIO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -31,6 +32,9 @@ namespace NYVTEN001_W1
             txtTime1= CreateTextBox("Time1", 10, 100);
             txtTime2= CreateTextBox("Time2", 10, 130);
             txtTime3= CreateTextBox("Time3", 10, 160);
+
+            txtOutput = new TextBox { Multiline = true, Width = 350, Height = 150, Top = 200, Left = 10 };
+            this.Controls.Add(txtOutput);
         }
     }
     
