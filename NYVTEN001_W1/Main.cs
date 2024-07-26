@@ -41,7 +41,14 @@ namespace NYVTEN001_W1
             this.Controls.Add(btnAdd);
 
             btnPredict = new Button { Text = "Predict next winner", Top = 360, Left = 100 };
+            btnPredict.Click += btnPredict_Click;
+            this.Controls.Add( btnPredict );
 
+        }
+
+        private TextBox CreateTextBox(string placeholder, int left, int top)
+        {
+            var textBox = new TextBox { Width = 100, left = left, Top = top, placeholder = placeholder };
         }
     }
     
