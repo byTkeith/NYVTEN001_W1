@@ -16,6 +16,13 @@ namespace NYVTEN001_W1
         public MainForm()
         {
             july= new July();
+            InitializeComponents();
+
+        }
+
+        private void InitializeComponents()
+        {
+            this.Text = "Durban July Horse Meet";
         }
     }
     
