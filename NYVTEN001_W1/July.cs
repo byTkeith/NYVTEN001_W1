@@ -25,4 +25,9 @@ public class July
             textBox.AppendText(horse.HorseDetails() + Environment.NewLine);
         }
     }
+
+    public Horse Favourite()
+    {
+        return horses.OrderBy(h=>h.AverageTime()).First();
+    }
 }
