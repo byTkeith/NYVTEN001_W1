@@ -52,6 +52,11 @@ namespace NYVTEN001_W1
             this.Controls.Add(textBox);
             return textBox;
         }
+
+        private void BtnAdd_Click(object sender, EventArgs e)
+        {
+            string name=txtName.Text;
+        }
     }
     
 
