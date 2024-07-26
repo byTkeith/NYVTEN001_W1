@@ -49,6 +49,8 @@ namespace NYVTEN001_W1
         private TextBox CreateTextBox(string placeholder, int left, int top)
         {
             var textBox = new TextBox { Width = 100, left = left, Top = top, placeholder = placeholder };
+            this.Controls.Add(textBox);
+            return textBox;
         }
     }
     
