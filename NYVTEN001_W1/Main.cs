@@ -38,6 +38,10 @@ namespace NYVTEN001_W1
 
             btnAdd = new Button { Text = "Add", Top = 360, Left = 10 };
             btnAdd.Click += Btn_Click;
+            this.Controls.Add(btnAdd);
+
+            btnPredict = new Button { Text = "Predict next winner", Top = 360, Left = 100 };
+
         }
     }
     
