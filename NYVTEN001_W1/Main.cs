@@ -23,6 +23,7 @@ namespace NYVTEN001_W1
         private void InitializeComponents()
         {
             this.Text = "Durban July Horse Meet";
+            this.Size = new System.Drawing.Size(400, 400);//added frame size
         }
     }
     
