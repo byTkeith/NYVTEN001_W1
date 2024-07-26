@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Tendai Nyevedazanai
+using System;
 using System.Linq;
 public class Horse
 {//get and setter methods
