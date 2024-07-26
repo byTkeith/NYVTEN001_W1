@@ -20,6 +20,9 @@ public class July
     public void DisplayRoster(TextBox textBox)
     {
         textBox.clear();
-        foreach(Horse horse in horses) {
+        foreach (Horse horse in horses)
+        {
+            textBox.AppendText(horse.HorseDetails() + Environment.NewLine);
+        }
     }
 }
