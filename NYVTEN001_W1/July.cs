@@ -7,4 +7,8 @@ public class July
 {
     private List<Horse> horses;
 
+    private July()
+    {
+        horses = new List<Horse>();
+    }
 }
