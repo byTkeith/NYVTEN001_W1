@@ -26,6 +26,7 @@ namespace NYVTEN001_W1
             this.Size = new System.Drawing.Size(400, 400);//added frame size
 
             txtName = CreateTextBox("Name", 10, 10);
+            txtAge = CreateTextBox("Age", 10, 40);
         }
     }
     
