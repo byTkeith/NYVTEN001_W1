@@ -10,6 +10,7 @@ namespace NYVTEN001_W1
     {
         private July july;
         private TextBox txtName, txtAge, txtHeight, txtTime1, txtTime2, txtTime3;
+        private TextBox txtOutput;
     }
     
 
