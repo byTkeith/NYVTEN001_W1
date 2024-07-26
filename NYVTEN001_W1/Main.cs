@@ -8,7 +8,8 @@ namespace NYVTEN001_W1
 {
     public class MainForm : Form
     {
-        sta
+        private July july;
+        private TextBox txtName, txtAge, txtHeight, txtTime1, txtTime2, txtTime3;
     }
     
 
