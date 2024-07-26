@@ -35,6 +35,8 @@ namespace NYVTEN001_W1
 
             txtOutput = new TextBox { Multiline = true, Width = 350, Height = 150, Top = 200, Left = 10 };
             this.Controls.Add(txtOutput);
+
+            btnAdd = new Button { Text = "Add", Top = 360, Left = 10 };
         }
     }
     
