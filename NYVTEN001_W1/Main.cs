@@ -29,6 +29,8 @@ namespace NYVTEN001_W1
             txtAge = CreateTextBox("Age", 10, 40);
             txtHeight= CreateTextBox("Height", 10, 70);
             txtTime1= CreateTextBox("Time1", 10, 100);
+            txtTime2= CreateTextBox("Time2", 10, 130);
+            txtTime3= CreateTextBox("Time3", 10, 160);
         }
     }
     
