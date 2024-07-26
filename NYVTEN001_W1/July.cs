@@ -11,4 +11,9 @@ public class July
     {
         horses = new List<Horse>();
     }
+
+    public void AddHorse(Horse horse)
+    {
+
+    }
 }
