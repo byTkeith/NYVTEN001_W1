@@ -14,6 +14,6 @@ public class July
 
     public void AddHorse(Horse horse)
     {
-
+        horses.Add(horse);
     }
 }
